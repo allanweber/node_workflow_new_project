@@ -16,15 +16,17 @@ Confguração dos comportamentos de formatação dos arquivos, para habilitar a 
 > ## formatOnSave
 Formatar aquivos conforme EditorConfig e Prettier
 * pressinar Crtl + , para abrir as preferências.
-* ``` "[javascript]": {
-        "editor.formatOnSave": true
-        },
-        "[json]": {
-            "editor.formatOnSave": true
-        },
-        "[jsonc]": {
-            "editor.formatOnSave": true
-        }
+ ```
+"[javascript]": {
+  "editor.formatOnSave": true
+},
+"[json]": {
+  "editor.formatOnSave": true
+},
+"[jsonc]": {
+  "editor.formatOnSave": true
+}
+```
 
 > ## npm init -y
 Inicializa o package.json, com -y para confirmar as questões que serão exibidas
