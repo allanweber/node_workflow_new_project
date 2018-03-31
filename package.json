@@ -1,0 +1,27 @@
+{
+  "name": "node_workflow_new_project",
+  "version": "1.0.0",
+  "description": "Workflow para start de prpojeto node ou outros",
+  "author": "Allan Weber <a.cassianoweber@gmail.com>",
+  "homepage": "https://github.com/allanweber/node_workflow_new_project#readme",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js --fix",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanweber/node_workflow_new_project.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanweber/node_workflow_new_project/issues"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.11.1"
+  }
+}
